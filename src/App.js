@@ -1,13 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import TaskComponent from './Components/TaskComponent';
 
 function App() {
   return (
     
-    <header>
-      hgf
-    </header>
+    <>
+    <div className="container px-3 py-5">
+      <TaskComponent></TaskComponent>
+      <TaskComponent></TaskComponent>
+      <TaskComponent></TaskComponent>
+    </div>
+    </>
   );
 }
 
